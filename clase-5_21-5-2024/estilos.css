@@ -1,0 +1,18 @@
+/* Esto es un comentario */
+
+/* Selectores */
+h1 {
+  text-transform: uppercase;
+  color: red;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+p {
+  color: violet;
+  font-family: fantasy;
+}
+
+body {
+  background-color: yellowgreen;
+}
