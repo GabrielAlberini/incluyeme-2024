@@ -5,6 +5,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+label,
+input,
+textarea {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 img {
   width: 200px;
   margin-bottom: 20px;
@@ -16,10 +24,15 @@ header {
   padding: 20px;
 }
 
-ul {
+/* Selector por clase */
+.lista-header {
   display: flex;
   gap: 20px;
   list-style: none;
+}
+
+.texto-color-rojo {
+  color: red;
 }
 
 main {
@@ -50,4 +63,35 @@ div {
   border: 3px solid black;
   margin-bottom: 20px;
   padding: 20px;
+}
+
+button {
+  padding: 8px 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: slateblue;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+input,
+textarea {
+  border: 3px solid violet;
+  padding: 10px;
+  border-radius: 10px;
 }
