@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.texto-en-negrita {
+  font-weight: bold;
+}
